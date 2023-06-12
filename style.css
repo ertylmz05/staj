@@ -1,0 +1,255 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css";
+@import "https://fonts.googleapis.com/css?family=Raleway:900&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.navbar .navlogo-img {
+  width: 70%;
+}
+.navbar .navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 1.5rem;
+}
+.navbar .nav-btn {
+  border-radius: 2rem;
+  width: 7rem;
+  height: 2.5rem;
+}
+.navbar .nav-btn a {
+  color: white;
+}
+.navbar .nav-btn a a:hover {
+  color: white;
+}
+
+#container {
+  position: relative;
+  margin: auto;
+  max-width: 100vw;
+  height: 80pt;
+  top: 5.5rem;
+  left: 1rem;
+  filter: url(#threshold) blur(0.6px);
+}
+
+#text1 {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 70pt;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#text2 {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 70pt;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.inf-side {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: 1px solid black;
+}
+.inf-side .container .row .col-6 {
+  height: 60vh;
+}
+.inf-side .container .row .col-6 h1 {
+  font-size: 5.5rem;
+  color: black;
+}
+.inf-side .container .row .col-6 p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.inf-side .container .row .col-6 .inf-btn {
+  background-color: black;
+  border-radius: 2rem;
+  margin: 1rem;
+  width: 13rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+.inf-side .container .row .col-6 .inf-btn a {
+  color: white;
+}
+.inf-side .container .row .col-6 .inf-btn a a:hover {
+  color: white;
+}
+
+.mid-side .container {
+  width: 80%;
+}
+.mid-side .container .row .col-12 .infcard {
+  width: 50%;
+}
+.mid-side .container .row .col-12 .infcard b {
+  position: relative;
+  right: 3rem;
+  color: rgba(128, 128, 128, 0.301);
+  font-size: 25px;
+  z-index: -9999;
+}
+.mid-side .container .row .col-12 a {
+  color: black;
+}
+.mid-side .container .row .col-12 a p img {
+  width: 25px;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.mid-side .container .row .col-12 p {
+  font-size: 13px;
+}
+
+.bottom-cards {
+  margin-top: 3rem;
+}
+.bottom-cards .left-side {
+  width: 60%;
+}
+.bottom-cards .left-side .infcard {
+  width: 100%;
+}
+.bottom-cards .left-side .infcard img {
+  width: 40%;
+  margin-bottom: 1rem;
+}
+.bottom-cards .left-side .infcard .card-content {
+  max-width: 70%;
+}
+.bottom-cards .left-side .infcard .card-content img {
+  width: 30px;
+}
+.bottom-cards .left-side .infcard .card-content a {
+  color: black;
+}
+.bottom-cards .right-side {
+  position: sticky;
+  top: 10rem;
+  width: 40%;
+  display: block;
+}
+.bottom-cards .right-side .categorys {
+  position: sticky;
+  top: 0;
+}
+.bottom-cards .right-side .categorys .category {
+  background-color: rgba(192, 188, 188, 0.267);
+  border-radius: 20px;
+  display: inline-block;
+  padding: 0.5rem;
+  margin-top: 0.7rem;
+}
+.bottom-cards .right-side .categorys a {
+  color: rgba(0, 0, 0, 0.712);
+  cursor: pointer;
+}
+.bottom-cards .right-side .categorys p {
+  font-size: 13px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.bottom-cards .right-side .categorys p a {
+  color: green;
+}
+.bottom-cards .right-side .options a {
+  margin-left: 0.6rem;
+  color: black;
+}
+
+.ourstory .navbar {
+  background-color: white;
+}
+.ourstory .first {
+  display: flex;
+  border-bottom: 1px solid black;
+  height: 40vh;
+  align-items: center;
+}
+.ourstory .first .container .row .col-12 .text {
+  text-align: center;
+  font-size: 85px;
+}
+.ourstory .second {
+  border-bottom: 1px solid black;
+}
+.ourstory .second .container .row .inf-text {
+  border-right: 1px solid black;
+}
+.ourstory .second .container .row .inf-text h6 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-right: 2rem;
+}
+.ourstory .second .container .row .inf-animation .animation {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.ourstory .second .container .row .inf-animation .animation iframe {
+  margin-left: 4rem;
+}
+.ourstory .third {
+  background-color: #FFD1B9;
+}
+.ourstory .third .container {
+  padding-bottom: 1rem;
+}
+.ourstory .third .container .row .third-textside .third-text {
+  text-align: center;
+}
+.ourstory .third .container .row .third-textside .third-text h1 {
+  margin-top: 3rem;
+  font-size: 100px;
+}
+.ourstory .third .container .row .third-textside .third-p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.ourstory .third .container .row .third-textside .third-p p {
+  margin-top: 1rem;
+  text-align: center;
+  width: 50%;
+}
+.ourstory .third .container .row .col-4 hr {
+  border-width: 4px;
+}
+.ourstory .third .container .row .col-4 .profile-card .profile-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.ourstory .third .container .row .col-4 .profile-card .profile-name h4 {
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
