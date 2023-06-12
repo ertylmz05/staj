@@ -211,6 +211,7 @@ a {
 // Our Story Sayfasının css bölümü
 
 .ourstory {
+	font-family: 'Times New Roman', Times, serif;
 	.navbar{
 		background-color: white;
 	}
@@ -298,6 +299,20 @@ a {
 								margin-top: 10px;
 							}
 						}
+					}
+				}
+			}
+		}
+	}
+	.fourth{
+		background-color: black;
+		.container{
+			.row{
+				.text-side{
+					border-right: 1px solid white;
+					h1{
+						font-size: 100px;
+						color: white;
 					}
 				}
 			}

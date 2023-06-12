@@ -187,6 +187,9 @@ a {
   color: black;
 }
 
+.ourstory {
+  font-family: "Times New Roman", Times, serif;
+}
 .ourstory .navbar {
   background-color: white;
 }
@@ -252,4 +255,14 @@ a {
 }
 .ourstory .third .container .row .col-4 .profile-card .profile-name h4 {
   margin-top: 10px;
+}
+.ourstory .fourth {
+  background-color: black;
+}
+.ourstory .fourth .container .row .text-side {
+  border-right: 1px solid white;
+}
+.ourstory .fourth .container .row .text-side h1 {
+  font-size: 100px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
