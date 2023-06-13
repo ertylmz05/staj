@@ -313,8 +313,71 @@ a {
 					margin-left: 2rem;
 					border-right: 1px solid white;
 					h1{
-						font-size: 100px;
+						font-size: 130px;
 						color: white;
+					}
+				}
+				.inf-side{
+					margin-top: 4rem;
+					width: 80%;
+					.img{
+						width: 200px;
+					}
+					.text{
+						p{
+							margin-top: 3rem;
+							color: white;
+							font-size: 30px;
+						}
+					}
+				}
+			}
+		}
+		.container-fluid{
+			border-top: 1px solid white;
+			.row{
+				.col-12{
+					text-align: center;
+					.text{
+						display: flex;
+						justify-content: center;
+						margin-top: 2rem;
+						h1{
+							margin-top: 2rem;
+							width: 70%;
+							text-align: center;
+							color: white;
+							font-size: 110px;
+						}
+					}
+					.bottom-text{
+						display: flex;
+						justify-content: center;
+						p{
+							margin-top: 2rem;
+							width: 600px;
+							text-align: center;
+							color: white;
+							font-size: 20px;
+						}
+					}
+					.btn{
+						margin-top: 2rem;
+						a{
+							text-decoration: none;
+							button{
+								border: 1px solid green;
+								width: 200px;
+								background-color: black;
+								color: green;
+								border-radius: 2rem;
+								padding: .4rem;
+							}
+							button:hover{
+								background-color: green;
+								color: white;
+							}
+						}
 					}
 				}
 			}
