@@ -267,6 +267,7 @@ a {
 
   .navbar {
     background-color: white;
+
     .navlogo-img {
       width: 20%;
     }
@@ -459,7 +460,7 @@ a {
                 color: green;
                 border-radius: 2rem;
                 padding: 0.4rem;
-				transition: .7s;
+                transition: 0.7s;
               }
 
               button:hover {
@@ -480,7 +481,8 @@ a {
       .row {
         .col-12 {
           text-align: center;
-			padding-bottom: 2rem;
+          padding-bottom: 2rem;
+
           .text {
             display: flex;
             justify-content: center;
@@ -521,32 +523,36 @@ a {
                 color: white;
                 border-radius: 2rem;
                 padding: 0.4rem;
-				transition: .7s;
+                transition: 0.7s;
               }
 
               button:hover {
                 background-color: white;
                 color: black;
-				// transition: .5s;
+                // transition: .5s;
               }
             }
           }
         }
       }
     }
+
     .row {
       border: 1px solid black;
       border-top: none;
+
       .read {
         h2 {
           margin-top: 2rem;
           margin-left: 2rem;
           color: black;
         }
+
         img {
           margin-top: 2rem;
           margin-left: 2rem;
         }
+
         p {
           margin-top: 2rem;
           margin-left: 2rem;
@@ -554,17 +560,21 @@ a {
           font-size: 15px;
         }
       }
+
       .reward {
-		border-left: 1px solid black;
+        border-left: 1px solid black;
+
         h2 {
           margin-top: 2rem;
           margin-left: 2rem;
           color: black;
         }
+
         img {
           margin-top: 2rem;
           margin-left: 2rem;
         }
+
         p {
           margin-top: 2rem;
           margin-left: 2rem;
@@ -574,39 +584,46 @@ a {
       }
     }
   }
-  .sixth{
-	background-color: #B6E5A4;
-	.container-fluid{
-		.row{
-			.text-side{
-				.text{
-					margin-left: 2rem;
-					margin-top: 2rem;
-					h1{
-						color: black;
-						font-size: 90px;
-					}
-					p{
-						margin-top: 2rem;
-						font-size: 20px;
-						color: black;
-					}
-				}
-				.img{
-					margin-top: 3rem;
-					margin-left: 2rem;
-					img{
-						width: 140px;
-						margin-left: 1rem;
-					}
-				}
-			}
-			.img-side{
-				img{
-					width: 400px;
-				}
-			}
-		}
-	}
+
+  .sixth {
+    background-color: #b6e5a4;
+
+    .container-fluid {
+      .row {
+        .text-side {
+          .text {
+            margin-left: 2rem;
+            margin-top: 2rem;
+
+            h1 {
+              color: black;
+              font-size: 90px;
+            }
+
+            p {
+              margin-top: 2rem;
+              font-size: 20px;
+              color: black;
+            }
+          }
+
+          .img {
+            margin-top: 3rem;
+            margin-left: 2rem;
+
+            img {
+              width: 140px;
+              margin-left: 1rem;
+            }
+          }
+        }
+
+        .img-side {
+          img {
+            width: 400px;
+          }
+        }
+      }
+    }
   }
 }
