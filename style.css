@@ -390,8 +390,8 @@ a {
   color: black;
 }
 .ourstory .fifth .row {
-  border: 1px solid black;
-  border-top: none;
+  border-bottom: 1px solid black;
+  max-width: 100%;
 }
 .ourstory .fifth .row .read h2 {
   margin-top: 2rem;
@@ -428,6 +428,7 @@ a {
 }
 .ourstory .sixth {
   background-color: #b6e5a4;
+  border-bottom: 1px solid black;
 }
 .ourstory .sixth .container-fluid .row .text-side .text {
   margin-left: 2rem;
@@ -451,5 +452,86 @@ a {
   margin-left: 1rem;
 }
 .ourstory .sixth .container-fluid .row .img-side img {
+  margin-top: 4rem;
+  margin-left: 7rem;
   width: 400px;
+}
+.ourstory .seventh .container-fluid .row {
+  border-bottom: 1px solid black;
+}
+.ourstory .seventh .container-fluid .row .left-side {
+  border-right: 1px solid black;
+}
+.ourstory .seventh .container-fluid .row .left-side p {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  letter-spacing: -0.15vw;
+  line-height: 100%;
+  color: black;
+  font-size: 130px;
+}
+.ourstory .seventh .container-fluid .row .right-side .top {
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+}
+.ourstory .seventh .container-fluid .row .right-side .top h4 {
+  margin-left: 2rem;
+  font-size: 50px;
+  color: black;
+  margin-top: 3rem;
+}
+.ourstory .seventh .container-fluid .row .right-side .top p {
+  margin-left: 2rem;
+  font-size: 20px;
+  color: black;
+}
+.ourstory .seventh .container-fluid .row .right-side .top button {
+  margin-left: 2rem;
+  margin-top: 5rem;
+  border: 1px solid green;
+  border-radius: 3rem;
+  padding: 0.2rem;
+  width: 140px;
+  transition: 0.7s;
+}
+.ourstory .seventh .container-fluid .row .right-side .top button a {
+  color: green;
+}
+.ourstory .seventh .container-fluid .row .right-side .top button:hover {
+  background-color: green;
+}
+.ourstory .seventh .container-fluid .row .right-side .top button:hover a {
+  color: white;
+}
+.ourstory .seventh .container-fluid .row .right-side .bottom {
+  padding-bottom: 2rem;
+}
+.ourstory .seventh .container-fluid .row .right-side .bottom h4 {
+  margin-left: 2rem;
+  font-size: 50px;
+  color: black;
+  margin-top: 3rem;
+}
+.ourstory .seventh .container-fluid .row .right-side .bottom p {
+  margin-left: 2rem;
+  font-size: 20px;
+  color: black;
+}
+.ourstory .seventh .container-fluid .row .right-side .bottom button {
+  margin-left: 2rem;
+  margin-top: 5rem;
+  border: 1px solid green;
+  border-radius: 3rem;
+  padding: 0.2rem;
+  width: 160px;
+  transition: 0.7s;
+}
+.ourstory .seventh .container-fluid .row .right-side .bottom button a {
+  color: green;
+}
+.ourstory .seventh .container-fluid .row .right-side .bottom button:hover {
+  background-color: green;
+}
+.ourstory .seventh .container-fluid .row .right-side .bottom button:hover a {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

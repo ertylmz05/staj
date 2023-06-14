@@ -538,9 +538,9 @@ a {
     }
 
     .row {
-      border: 1px solid black;
-      border-top: none;
-
+      border-bottom: 1px solid black;
+      max-width: 100%;
+      // --bs-gutter-x: auto;
       .read {
         h2 {
           margin-top: 2rem;
@@ -587,7 +587,7 @@ a {
 
   .sixth {
     background-color: #b6e5a4;
-
+    border-bottom: 1px solid black;
     .container-fluid {
       .row {
         .text-side {
@@ -620,7 +620,94 @@ a {
 
         .img-side {
           img {
+            margin-top: 4rem;
+            margin-left: 7rem;
             width: 400px;
+          }
+        }
+      }
+    }
+  }
+  .seventh{
+    .container-fluid{
+      .row{
+        border-bottom: 1px solid black;
+        .left-side{
+          border-right: 1px solid black;
+          p{
+            margin-left: 2rem;
+            margin-top: 2rem;
+            letter-spacing: -0.15vw;
+            line-height: 100%;
+            color: black;
+            font-size: 130px;
+          }
+        }
+        .right-side{
+          .top{
+            border-bottom: 1px solid black;
+            padding-bottom: 2rem;
+            h4{
+              margin-left: 2rem;
+              font-size: 50px;
+              color: black;
+              margin-top: 3rem;
+            }
+            p{
+              margin-left: 2rem;
+              font-size: 20px;
+              color: black;
+            }
+            button{
+              margin-left: 2rem;
+              margin-top: 5rem;
+              border: 1px solid green;
+              border-radius: 3rem;
+              padding: .2rem;
+              width: 140px;
+              transition: .7s;
+              a{
+                color: green;
+              }
+            }
+            button:hover{
+              background-color: green;
+              a{
+                color: white;
+              }
+            }
+          }
+          .bottom{
+            padding-bottom: 2rem;
+            h4{
+              margin-left: 2rem;
+              font-size: 50px;
+              color: black;
+              margin-top: 3rem;
+            }
+            p{
+              margin-left: 2rem;
+              font-size: 20px;
+              color: black;
+            }
+            button{
+              margin-left: 2rem;
+              margin-top: 5rem;
+              border: 1px solid green;
+              border-radius: 3rem;
+              padding: .2rem;
+              width: 160px;
+              transition: .7s;
+              a{
+                color: green;
+              }
+            }
+            button:hover{
+              background-color: green;
+              a{
+                color: white;
+              }
+            }
           }
         }
       }
