@@ -534,4 +534,47 @@ a {
 }
 .ourstory .seventh .container-fluid .row .right-side .bottom button:hover a {
   color: white;
+}
+.ourstory .seventh .container-fluid .second-row {
+  border-bottom: 1px solid black;
+}
+.ourstory .seventh .container-fluid .second-row .inf-animation {
+  border-right: 1px solid black;
+}
+.ourstory .seventh .container-fluid .second-row .inf-animation .animation {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.ourstory .seventh .container-fluid .second-row .text {
+  padding-bottom: 3rem;
+}
+.ourstory .seventh .container-fluid .second-row .text h1 {
+  font-size: 130px;
+  letter-spacing: -0.15vw;
+  line-height: 100%;
+}
+.ourstory .seventh .container-fluid .second-row .text button {
+  margin-left: 2rem;
+  margin-top: 5rem;
+  border: 1px solid green;
+  border-radius: 3rem;
+  padding: 0.2rem;
+  width: 160px;
+  transition: 0.7s;
+}
+.ourstory .seventh .container-fluid .second-row .text button a {
+  font-size: 20px;
+  color: green;
+}
+.ourstory .seventh .container-fluid .second-row .text button:hover {
+  background-color: green;
+}
+.ourstory .seventh .container-fluid .second-row .text button:hover a {
+  color: white;
+}
+.ourstory footer .container .row .col-12 .footer-img {
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
 }/*# sourceMappingURL=style.css.map */
