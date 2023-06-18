@@ -722,4 +722,8 @@ a {
   border-radius: 2rem;
   padding: 0.4rem;
   width: 200px;
+  background-color: black;
+}
+.membership .third .container-fluid .row .col-12 .button button a {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
