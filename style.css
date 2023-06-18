@@ -577,4 +577,149 @@ a {
   text-align: center;
   margin-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.membership {
+  font-family: "Times New Roman", Times, serif;
+}
+.membership .navbar {
+  background-color: white;
+}
+.membership .first {
+  background-color: #4479FF;
+}
+.membership .first .container-fluid .row {
+  border-bottom: 1px solid white;
+}
+.membership .first .container-fluid .row .text {
+  margin-top: 5rem;
+  text-align: center;
+}
+.membership .first .container-fluid .row .text .top h1 {
+  color: white;
+  font-size: 100px;
+}
+.membership .first .container-fluid .row .text .bottom {
+  display: flex;
+  justify-content: center;
+}
+.membership .first .container-fluid .row .text .bottom p {
+  font-size: 20px;
+  color: white;
+  width: 50%;
+}
+.membership .first .container-fluid .row .text .buttom-btn {
+  margin-top: 1rem;
+  padding-bottom: 4rem;
+  transition: 0.7s;
+}
+.membership .first .container-fluid .row .text .buttom-btn .btn:hover {
+  background-color: #4479FF;
+  border: 1px solid white;
+}
+.membership .first .container-fluid .row .text .buttom-btn .btn:hover a {
+  color: white;
+}
+.membership .first .container-fluid .row .text .buttom-btn .btn {
+  width: 250px;
+  font-size: 20px;
+  border-radius: 3rem;
+  background-color: white;
+}
+.membership .first .container-fluid .row .text .buttom-btn .btn a {
+  color: black;
+}
+.membership .first .container-fluid .second-row .read h2 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: white;
+  font-size: 45px;
+}
+.membership .first .container-fluid .second-row .read img {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.membership .first .container-fluid .second-row .read p {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: white;
+  font-size: 20px;
+}
+.membership .first .container-fluid .second-row .reward {
+  border-left: 1px solid white;
+}
+.membership .first .container-fluid .second-row .reward h2 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: white;
+  font-size: 40px;
+}
+.membership .first .container-fluid .second-row .reward img {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding-bottom: 1rem;
+}
+.membership .first .container-fluid .second-row .reward p {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 20px;
+  color: white;
+}
+.membership .second .container-fluid .row {
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+}
+.membership .second .container-fluid .row .top-text {
+  text-align: center;
+  margin-top: 2rem;
+}
+.membership .second .container-fluid .row .top-text h1 {
+  font-size: 60px;
+}
+.membership .second .container-fluid .row .profile-card {
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+.membership .second .container-fluid .row .profile-card .profile {
+  margin-top: 2rem;
+  text-align: center;
+  width: 200px;
+}
+.membership .second .container-fluid .row .profile-card .profile .img {
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.membership .second .container-fluid .row .profile-card .profile .img h4 {
+  margin-top: 1rem;
+}
+.membership .second .container-fluid .row .profile-card .profile-inf {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  width: 70%;
+}
+.membership .second .container-fluid .row .profile-card .profile-inf p {
+  font-size: 25px;
+}
+.membership .third .container-fluid .row .col-12 {
+  margin-top: 3rem;
+}
+.membership .third .container-fluid .row .col-12 .text {
+  text-align: center;
+  color: black;
+  width: 40%;
+  margin: auto;
+}
+.membership .third .container-fluid .row .col-12 .text h1 {
+  font-size: 70px;
+}
+.membership .third .container-fluid .row .col-12 .button {
+  margin-top: 3rem;
+  text-align: center;
+}
+.membership .third .container-fluid .row .col-12 .button button {
+  border-radius: 2rem;
+  padding: 0.4rem;
+  width: 200px;
 }/*# sourceMappingURL=style.css.map */

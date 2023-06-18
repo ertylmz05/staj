@@ -540,7 +540,7 @@ a {
     .row {
       border-bottom: 1px solid black;
       max-width: 100%;
-      // --bs-gutter-x: auto;
+      // --bs-gutter-x: auto; 
       .read {
         h2 {
           margin-top: 2rem;
@@ -769,5 +769,170 @@ a {
 // membership css bölümü
 
 .membership{
+  font-family: 'Times New Roman', Times, serif;
+  .navbar{
+    background-color: white;
+  }
+  .first{
+    background-color: #4479FF;
+    .container-fluid{
+      .row{
+        border-bottom: 1px solid white;
+        .text{
+          margin-top: 5rem;
+          text-align: center;
+         .top{
+            h1{
+              color: white;
+              font-size: 100px;
+          }
+         }
+         .bottom{
+          display: flex;
+          justify-content: center;
+          p{
+            font-size: 20px;
+            color:white;
+            width: 50%;
+          }
+         }
+         .buttom-btn{
+          margin-top: 1rem;
+          padding-bottom: 4rem;
+          transition: .7s ;
+          .btn:hover{
+            background-color: #4479FF;
+            border: 1px solid white;
+            a{
+              color: white;
+            }
+          }
+          .btn{
+            width: 250px;
+            font-size: 20px ;
+            border-radius: 3rem;
+            background-color: white;
+            a{
+              color: black;
+            }
+           }
+         }
+        }
+      }
+      .second-row{
+        .read {
+          h2 {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            color: white;
+            font-size: 45px;
+          }
   
+          img {
+            margin-top: 2rem;
+            margin-left: 2rem;
+          }
+  
+          p {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            color: white;
+            font-size: 20px;
+          }
+        }
+  
+        .reward {
+          border-left: 1px solid white;
+  
+          h2 {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            color: white;
+            font-size: 40px;
+          }
+  
+          img {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            padding-bottom: 1rem;
+          }
+  
+          p {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            font-size: 20px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .second{
+    .container-fluid{
+      .row{
+        border-bottom: 1px solid black;
+        padding-bottom: 2rem;
+        .top-text{
+          text-align: center;
+          margin-top: 2rem;
+          h1{
+            font-size: 60px;
+          }
+        }
+        .profile-card{
+          width: 80%;
+          display: flex;
+          margin: auto;
+          .profile{
+            margin-top: 2rem;
+            text-align: center;
+            width: 200px;
+            .img{
+              padding: 1rem;
+              border-radius: 2rem;
+              box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+              h4{
+                margin-top: 1rem;
+              }
+            }
+          }
+          .profile-inf{
+            margin-top: 2rem;
+            margin-left: 3rem;
+            width: 70%;
+            p{
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .third{
+    .container-fluid{
+      .row{
+        .col-12{
+          margin-top: 3rem;
+          .text{
+            text-align: center;
+            color: black;
+            width: 40%;
+            margin: auto;
+            h1{
+              font-size: 70px;
+            }
+          }
+          .button{
+            margin-top: 3rem;
+            text-align: center;
+            button{
+              border-radius: 2rem;
+              padding: .4rem;
+              width: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
