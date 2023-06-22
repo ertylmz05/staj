@@ -100,3 +100,10 @@ window.onscroll = function(event){
     }
     
 }
+
+
+let sayi = 5 ;
+
+sayi = 6
+
+console.log(sayi)

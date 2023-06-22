@@ -540,7 +540,8 @@ a {
     .row {
       border-bottom: 1px solid black;
       max-width: 100%;
-      // --bs-gutter-x: auto;
+
+      // --bs-gutter-x: auto; 
       .read {
         h2 {
           margin-top: 2rem;
@@ -588,6 +589,7 @@ a {
   .sixth {
     background-color: #b6e5a4;
     border-bottom: 1px solid black;
+
     .container-fluid {
       .row {
         .text-side {
@@ -628,13 +630,16 @@ a {
       }
     }
   }
-  .seventh{
-    .container-fluid{
-      .row{
+
+  .seventh {
+    .container-fluid {
+      .row {
         border-bottom: 1px solid black;
-        .left-side{
+
+        .left-side {
           border-right: 1px solid black;
-          p{
+
+          p {
             margin-left: 2rem;
             margin-top: 2rem;
             letter-spacing: -0.15vw;
@@ -643,22 +648,26 @@ a {
             font-size: 130px;
           }
         }
-        .right-side{
-          .top{
+
+        .right-side {
+          .top {
             border-bottom: 1px solid black;
             padding-bottom: 2rem;
-            h4{
+
+            h4 {
               margin-left: 2rem;
               font-size: 50px;
               color: black;
               margin-top: 3rem;
             }
-            p{
+
+            p {
               margin-left: 2rem;
               font-size: 20px;
               color: black;
             }
-            button{
+
+            button {
               margin-left: 2rem;
               margin-top: 5rem;
               border: 1px solid green;
@@ -666,31 +675,38 @@ a {
               padding: .2rem;
               width: 140px;
               transition: .7s;
-              a{
+
+              a {
                 color: green;
               }
             }
-            button:hover{
+
+            button:hover {
               background-color: green;
-              a{
+
+              a {
                 color: white;
               }
             }
           }
-          .bottom{
+
+          .bottom {
             padding-bottom: 2rem;
-            h4{
+
+            h4 {
               margin-left: 2rem;
               font-size: 50px;
               color: black;
               margin-top: 3rem;
             }
-            p{
+
+            p {
               margin-left: 2rem;
               font-size: 20px;
               color: black;
             }
-            button{
+
+            button {
               margin-left: 2rem;
               margin-top: 5rem;
               border: 1px solid green;
@@ -698,37 +714,46 @@ a {
               padding: .2rem;
               width: 160px;
               transition: .7s;
-              a{
+
+              a {
                 color: green;
               }
             }
-            button:hover{
+
+            button:hover {
               background-color: green;
-              a{
+
+              a {
                 color: white;
               }
             }
           }
         }
       }
-      .second-row{
+
+      .second-row {
         border-bottom: 1px solid black;
-        .inf-animation{
+
+        .inf-animation {
           border-right: 1px solid black;
-          .animation{
+
+          .animation {
             width: 100%;
             height: 100%;
             overflow: hidden;
           }
         }
-        .text{
+
+        .text {
           padding-bottom: 3rem;
-          h1{
+
+          h1 {
             font-size: 130px;
             letter-spacing: -0.15vw;
             line-height: 100%;
           }
-          button{
+
+          button {
             margin-left: 2rem;
             margin-top: 5rem;
             border: 1px solid green;
@@ -736,14 +761,17 @@ a {
             padding: .2rem;
             width: 160px;
             transition: .7s;
-            a{
+
+            a {
               font-size: 20px;
               color: green;
             }
           }
-          button:hover{
+
+          button:hover {
             background-color: green;
-            a{
+
+            a {
               color: white;
             }
           }
@@ -751,11 +779,12 @@ a {
       }
     }
   }
-  footer{
-    .container{
-      .row{
-        .col-12{
-          .footer-img{
+
+  footer {
+    .container {
+      .row {
+        .col-12 {
+          .footer-img {
             text-align: center;
             margin-top: 2rem;
             padding-bottom: 2rem;
@@ -768,6 +797,329 @@ a {
 
 // membership css bölümü
 
-.membership{
-  
+.membership {
+  font-family: 'Times New Roman', Times, serif;
+
+  .navbar {
+    background-color: white;
+  }
+
+  .first {
+    background-color: #4479FF;
+
+    .container-fluid {
+      .row {
+        border-bottom: 1px solid white;
+
+        .text {
+          margin-top: 5rem;
+          text-align: center;
+
+          .top {
+            h1 {
+              color: white;
+              font-size: 100px;
+            }
+          }
+
+          .bottom {
+            display: flex;
+            justify-content: center;
+
+            p {
+              font-size: 20px;
+              color: white;
+              width: 50%;
+            }
+          }
+
+          .buttom-btn {
+            margin-top: 1rem;
+            padding-bottom: 4rem;
+            transition: .7s;
+
+            .btn:hover {
+              background-color: #4479FF;
+              border: 1px solid white;
+
+              a {
+                color: white;
+              }
+            }
+
+            .btn {
+              width: 250px;
+              font-size: 20px;
+              border-radius: 3rem;
+              background-color: white;
+
+              a {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+
+      .second-row {
+        .read {
+          h2 {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            color: white;
+            font-size: 45px;
+          }
+
+          img {
+            margin-top: 2rem;
+            margin-left: 2rem;
+          }
+
+          p {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            color: white;
+            font-size: 20px;
+          }
+        }
+
+        .reward {
+          border-left: 1px solid white;
+
+          h2 {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            color: white;
+            font-size: 40px;
+          }
+
+          img {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            padding-bottom: 1rem;
+          }
+
+          p {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            font-size: 20px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .second {
+    .container-fluid {
+      .row {
+        border-bottom: 1px solid black;
+        padding-bottom: 2rem;
+
+        .top-text {
+          text-align: center;
+          margin-top: 2rem;
+
+          h1 {
+            font-size: 60px;
+          }
+        }
+
+        .profile-card {
+          width: 80%;
+          display: flex;
+          margin: auto;
+
+          .profile {
+            margin-top: 2rem;
+            text-align: center;
+            width: 200px;
+
+            .img {
+              padding: 1rem;
+              border-radius: 2rem;
+              box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+              h4 {
+                margin-top: 1rem;
+              }
+            }
+          }
+
+          .profile-inf {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            width: 70%;
+
+            p {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .third {
+    background-color: #BCDFFF;
+
+    .container-fluid {
+      .row {
+        .col-12 {
+          margin-top: 3rem;
+
+          .text {
+            text-align: center;
+            color: black;
+            width: 40%;
+            margin: auto;
+
+            h1 {
+              font-size: 70px;
+            }
+          }
+
+          .button {
+            margin-top: 3rem;
+            text-align: center;
+
+            button {
+              border-radius: 2rem;
+              padding: .4rem;
+              width: 200px;
+              background-color: black;
+
+              a {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    border-top: 1px solid black;
+
+    .container {
+      .row {
+        .col-12 {
+          .footer-img {
+            text-align: center;
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// write css bölümü 
+
+
+.write {
+  font-family: 'Times New Roman', Times, serif;
+  .navbar {
+    background-color: #F24D2E;
+
+    img {
+      width: 150px;
+    }
+
+    button {
+      width: 150px;
+      height: 35px;
+      border: 1px solid black;
+    }
+  }
+  .first{
+    background-color: #F24D2E;
+    .left-side{
+      border-right: 1px solid black;
+      width: 70%;
+      .text{
+        width: 70%;
+        margin-left: 1rem;
+        h6{
+          margin-top: 3rem;
+          color: white;
+          font-size: 15px;
+        }
+        h1{
+          margin-top: 1rem;
+          font-size: 120px;
+          letter-spacing: -0.25vw;
+          line-height: 100%;
+          color: black;
+        }
+        p{
+          margin-top: 2rem;
+          color: black;
+          font-size: 20px;
+        }
+      }
+      .button{
+        padding-bottom: 2rem;
+        button{
+          border: 1px solid white;
+          border-radius: 2rem;
+          width: 130px;
+          margin-left: 1rem;
+          margin-top: 2rem;
+          background-color: white;
+          transition: .7s;
+          a{
+            color: black;
+            font-size: 20px;
+          }
+        }
+        button:hover{
+          background-color:#F24D2E;
+          a{
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .second{
+    background-color: black;
+    .left-side{
+      .text{
+        h1{
+          color: white;
+          font-size: 80px;
+          margin-left: 1rem;
+          margin-top: 1rem;
+          width: 80%;
+        }
+      }
+    }
+    .right-side{
+      .cards{
+        .card-content{
+          margin-top: 2rem;
+          border-top: 1px solid white;
+          img{
+            margin-top: 1rem;
+            width: 50px;
+          }
+        }
+        .text{
+          margin-top: 1rem;
+          margin-left: 1rem;
+          h1{
+            color: white;
+            font-size: 25px;
+          }
+          p{
+            margin-top: -.6rem;
+            color: white;
+          }
+        }
+      }
+    }
+  }
 }
