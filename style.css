@@ -958,4 +958,46 @@ a {
   margin-top: 3rem;
   margin-left: 1rem;
   padding: 1rem;
+}
+.write .fourth .bottom-row .col-8 .bottom .left {
+  border-right: 1px solid black;
+}
+.write .fourth .bottom-row .col-8 .bottom .left h1 {
+  margin-top: 1rem;
+  font-size: 50px;
+  color: black;
+  margin-left: 2rem;
+}
+.write .fourth .bottom-row .col-8 .bottom .left p {
+  font-size: 17px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+.write .fourth .bottom-row .col-8 .bottom .mid {
+  border-right: 1px solid black;
+}
+.write .fourth .bottom-row .col-8 .bottom .mid h1 {
+  margin-top: 1rem;
+  font-size: 50px;
+  color: black;
+  margin-left: 2rem;
+}
+.write .fourth .bottom-row .col-8 .bottom .mid p {
+  font-size: 17px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+.write .fourth .bottom-row .col-8 .bottom .right h1 {
+  margin-top: 1rem;
+  font-size: 50px;
+  color: black;
+  margin-left: 2rem;
+}
+.write .fourth .bottom-row .col-8 .bottom .right p {
+  font-size: 17px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  padding: 1rem;
 }/*# sourceMappingURL=style.css.map */
